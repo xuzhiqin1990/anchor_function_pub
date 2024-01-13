@@ -1,6 +1,6 @@
 # Anchor function: a type of benchmark function for studying language models
 
-main structure:
+Main structure:
     
     ```
     ├── data_generator 
@@ -12,6 +12,6 @@ main structure:
     ├── script.py
     ```
 
-run python ``script.py`` to train the model.
+Run python ``script.py`` to train the model.
 
 Run ``paper_plot_code/ipynb`` to reproduce the results in the paper.
