@@ -136,7 +136,7 @@ def train(args, datas, **kwargs):
     np.savez(f'{args.working_dir}/data/test.npz', **datas['test_seq_group'])
 
     # 保存源代码
-    for file in ['main.py', 'data.py', 'train.py', 'test.py', 'script.py']:
+    for file in ['main.py', 'data.py', 'train.py', 'script.py']:
         shutil.copy(file, f'{args.working_dir}/src/{file}')
     for dir in ['utils', 'model', 'data_generator']:
         shutil.copytree(dir, f'{args.working_dir}/src/{dir}', dirs_exist_ok=True)    
