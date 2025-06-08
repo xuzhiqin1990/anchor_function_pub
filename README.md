@@ -10,8 +10,11 @@ Main structure:
     ├── data.py
     ├── train.py
     ├── script.py
+    ├── run_script_identity_learning_task.py
     ```
 
-Run python ``script.py`` to train the model.
+Run python ``run_script_identity_learning_task.py`` to reproduce the Identity Learning Task in our paper.
+
+The script ``script.py`` contains a large number of tasks for research.
 
 Run ``paper_plot_code/ipynb`` to reproduce the results in the paper.
